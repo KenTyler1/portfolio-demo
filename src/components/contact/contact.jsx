@@ -14,7 +14,7 @@ function Contact() {
             <div className="contact-links">
                 <a href="https://www.youtube.com/channel/UCKIY0XnP6off0x-PwmuSCSA" className="contact youtube">
                     <AiOutlineYoutube className="icon" />
-                    <h2>Youtube<span>Creative Ambition</span></h2>
+                    <h2>Youtube<span>Broadcast Yourself</span></h2>
                 </a>
 
                 <a href="/#" className="contact whatsapp">
@@ -24,7 +24,7 @@ function Contact() {
 
                 <a href="https://www.instagram.com/tang.giakhanh/" className="contact instagram">
                     <AiOutlineInstagram className="icon" />
-                    <h2>Instagram<span>_Creative_Ambition_</span></h2>
+                    <h2>Instagram<span>Creative Ambition</span></h2>
                 </a>
             </div>
         </div>
