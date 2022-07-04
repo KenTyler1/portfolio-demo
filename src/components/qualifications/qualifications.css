@@ -1,0 +1,124 @@
+.quali-text {
+  font-size: 20px;
+  top: 10px;
+}
+
+.qualifications-container {
+  position: absolute;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 80%;
+  width: 90%;
+  overflow: auto;
+  margin-top: 15px;
+  user-select: none;
+  scroll-behavior: smooth;
+}
+
+.qualifications-container .qualification {
+  position: relative;
+  height: 550px;
+  min-width: 40%;
+  background: rgb(9, 6, 31);
+  border-radius: 20px;
+  margin: 0 20px 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.qualifications-container .qualification .content {
+  height: 85%;
+  width: 90%;
+  border-radius: 15px;
+  margin-top: 20px;
+  background-size: contain;
+  background-position: center;
+}
+
+.qualifications-container .qualification h1 {
+  font-size: 20px;
+  text-transform: none;
+  margin-top: 20px;
+}
+
+.qualifications-container .qualification .content.html {
+  background: url(../props/mario.PNG);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1000px auto;
+}
+
+.qualifications-container .qualification .content.css {
+  background: url(../props/chess.PNG);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 460px 450px;
+}
+
+.qualifications-container .qualification .content.javascript {
+  background: url(../props/movie.PNG);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 460px 450px;
+}
+
+/* .qualifications-container .qualification .content.bootstrap {
+  background: url(../props/bootstrap.png);
+  background-position: center;
+  background-size: 60px;
+} */
+
+.qualifications-container .qualification .content.react {
+  background: url(../props/sales_manage.PNG);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 460px 450px;
+
+}
+
+.qualifications-container .qualification .content.c-plus-plus {
+  background: url(../props/information.PNG);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 460px 450px;
+}
+
+.qualifications-container .qualification .content.c-sharp {
+  background: url(../props/image-processing.PNG);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 460px 450px;
+}
+
+/* .qualifications-container .qualification .content.kotlin {
+  background: url(../props/kotlin.png);
+  background-position: center;
+  background-size: 60px;
+} */
+
+#click-left,
+#click-right {
+  position: absolute;
+  background: none;
+  font-size: 50px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  scroll-behavior: smooth;
+}
+
+#click-left {
+    top: 420px;
+    left: 0px;
+}
+
+#click-right {
+    margin-right: 44px;
+    top: 420px;
+    right: 0px;
+}
